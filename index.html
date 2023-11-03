@@ -50,6 +50,7 @@
         #containerChat {
             visibility: hidden;
             opacity: 0;
+            padding: 5px;
         }
 
         .show-chatbox {
@@ -162,7 +163,7 @@
 
     function botReply(str) {
         if (str == "") {
-            formMessage("Hi! I am ALT - F4 Virtual Assistant. How can I help you? &#128515;", "bot")
+            formMessage("Hi! I am your Virtual Assistant. How can I help you? &#128515;", "bot")
         }
         else{
             formMessage(str, "bot")
